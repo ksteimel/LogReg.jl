@@ -149,4 +149,5 @@ function test_log_reg()
     println(acc)
     return acc
 end
+export LogisticRegressor, fit!, predict
 end # module
