@@ -1,0 +1,10 @@
+name = "LogisticRegression"
+uuid = "aa2944de-46af-11e9-31b3-e32bed024349"
+authors = ["ksteimel <ksteimel@iu.edu>"]
+version = "0.1.0"
+
+[deps]
+Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+UnicodePlots = "b8865327-cd53-5732-bb35-84acbb429228"
