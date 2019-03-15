@@ -1,0 +1,12 @@
+kind: pipeline
+name: julia-latest
+steps:
+- name: logisitic_regression
+  image: ksteimel/julia-basic:latest
+  commands:
+    - export JULIA_NUM_THREADS=4
+    - julia test/test.jl
+  when:
+    event:
+      - pull_request
+      - push
