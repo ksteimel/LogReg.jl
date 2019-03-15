@@ -2,7 +2,7 @@ module LogisticRegression
 using LinearAlgebra
 using Distributions
 using Random
-using UnicodePlots
+# using UnicodePlots
 using SparseArrays
 BLAS.set_num_threads(2)
 
@@ -114,7 +114,7 @@ function test_log_reg()
     
     x1 = [x1_v1 x1_v2]
     x2 = [x2_v1 x2_v2]
-    # generate sparse training data
+    # generate sparse test data
     x3_v1 = sparse(rand(Binomial(4, .2), num_instances))
     x3_v2 = sparse(rand(Binomial(8, .1),
     num_instances))
